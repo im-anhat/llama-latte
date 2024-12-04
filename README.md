@@ -1,3 +1,5 @@
+Here is the README code tailored to your project:
+
 # ☕ **Llama-Latte**
 
 > **Llama-Latte** is an AI-powered coffee shop application designed to enhance customer experience through personalized chatbot interactions, real-time recommendations, and seamless order management. Built with **React Native** and **Llama 3 model**, it leverages **Retrieval-Augmented Generation (RAG)** and **Market Basket Analysis** for accurate, context-aware responses and tailored product suggestions.
@@ -89,6 +91,7 @@
    ```bash
    git clone https://github.com/yourusername/llama-latte.git
    cd llama-latte
+
    ```
 
 2. **Install Dependencies**:
@@ -97,7 +100,60 @@
    npm install
    ```
 
-3. **Start the Application**:
+3. **Set Up Environment Variables**:
+   Create a .env file in the root directory with:
+
+   RUNPOD_TOKEN=your_runpod_token
+
+   RUNPOD_CHATBOT_URL=your_runpod_chatbot_url
+
+   MODEL_NAME=meta-llama/Meta-Llama-3-8B-Instruct
+
+   FIREBASE_API_KEY=your_firebase_api_key
+
+4. **Start the Application**:
    ```bash
-   npx expo start
+   npx expo start --tunnel
    ```
+
+## 📊 Architecture
+
+Frontend
+
+    •	React Native app powered by Expo
+
+    •	NativeWind for consistent and flexible UI styling
+
+Backend
+
+    •	Llama 3 model deployed on RunPod API
+
+    •	Firebase Firestore for real-time database management
+
+Recommendation System
+
+    •	Apriori algorithm for generating purchase-based recommendations
+
+    •	Popularity-based recommendations categorized by product types
+
+## 🛠️ Key Functionalities
+
+🌟 AI-Driven Order Management
+
+    •	Process orders with accurate validation and price calculation.
+
+    •	Suggest complementary products based on the customer’s current selection.
+
+🔍 Smart Recommendations
+
+    •	Apriori Recommendations: Suggest items frequently purchased together.
+
+    •	Popular Recommendations: Suggest trending items in the coffee shop.
+
+    •	Category-Specific Recommendations: Suggest items within a specific category based on customer interest.
+
+🔒 Secure and Scalable Deployment
+
+    •	Deployed with Docker and RunPod, ensuring scalability and cross-platform compatibility.
+
+    •	Sensitive configurations securely managed with environment variables.
