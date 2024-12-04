@@ -4,6 +4,10 @@ Here is the README code tailored to your project:
 
 > **Llama-Latte** is an AI-powered coffee shop application designed to enhance customer experience through personalized chatbot interactions, real-time recommendations, and seamless order management. Built with **React Native** and **Llama 3 model**, it leverages **Retrieval-Augmented Generation (RAG)** and **Market Basket Analysis** for accurate, context-aware responses and tailored product suggestions.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b8efdd37-d366-40c3-90e6-bb050779a2a4" alt="Llama-Latte Screenshot" width="300"/>
+</div>
+
 ---
 
 ## 📸 **Screenshots**
@@ -11,10 +15,14 @@ Here is the README code tailored to your project:
 <table>
   <tr>
     <td>
-      <img src="https://via.placeholder.com/500x300?text=Screenshot+1" alt="Screenshot 1" width="100%" />
+      <div align="center">
+        <img src="https://github.com/user-attachments/assets/03a3f8c7-274e-4b87-bfe6-52e112286ff8" alt="Image 1" width="60%"/>
+      </div>
     </td>
     <td>
-      <img src="https://via.placeholder.com/500x300?text=Screenshot+2" alt="Screenshot 2" width="100%" />
+      <div align="center">
+        <img src="https://github.com/user-attachments/assets/8bd28126-35f4-4812-912b-ec8669daecf5" alt="Image 2" width="60%"/>
+      </div>
     </td>
   </tr>
 </table>
