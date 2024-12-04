@@ -1,5 +1,3 @@
-Here is the README code tailored to your project:
-
 # ☕ **Llama-Latte**
 
 > **Llama-Latte** is an AI-powered coffee shop application designed to enhance customer experience through personalized chatbot interactions, real-time recommendations, and seamless order management. Built with **React Native** and **Llama 3 model**, it leverages **Retrieval-Augmented Generation (RAG)** and **Market Basket Analysis** for accurate, context-aware responses and tailored product suggestions.
